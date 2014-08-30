@@ -1,0 +1,27 @@
+#personaje, #personaje2
+{
+	border: 1px solid blue;
+	width: 104px;
+	height: 104px;	
+}
+
+.caminar
+{
+	background: url(../img/csg-5401482ebff81.png) no-repeat top left;
+}
+
+
+.p0{ background-position: 0 0; width: 104px; height: 104px; } 
+.p1{ background-position: 0 -204px; width: 104px; height: 104px; } 
+.p10{ background-position: 0 -408px; width: 104px; height: 104px; } 
+.p11{ background-position: 0 -612px; width: 104px; height: 104px; } 
+.p12{ background-position: 0 -816px; width: 104px; height: 104px; } 
+.p13{ background-position: 0 -1020px; width: 104px; height: 104px; } 
+.p2{ background-position: 0 -1224px; width: 104px; height: 104px; } 
+.p3{ background-position: 0 -1428px; width: 104px; height: 104px; } 
+.p4{ background-position: 0 -1632px; width: 104px; height: 104px; } 
+.p5{ background-position: 0 -1836px; width: 104px; height: 104px; } 
+.p6{ background-position: -204px 0; width: 104px; height: 104px; } 
+.p7{ background-position: -204px -204px; width: 104px; height: 104px; } 
+.p8{ background-position: -204px -408px; width: 104px; height: 104px; } 
+.p9{ background-position: -204px -612px; width: 104px; height: 104px; } 
