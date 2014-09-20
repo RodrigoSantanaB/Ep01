@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Juego Caliente Frio</title>
+	<script src = "num.js?a=2"></script>
+	<style type="text/css">
+    html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+ 
+    #full-screen-background-image {
+        z-index: -999;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+</style>
+</head>
+<body>
+ <img alt="" src="f.jpg" id="full-screen-background-image" /> 
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+    <tr>
+
+    <td width="52%" align="right">    
+     <h1><div id = "oportunidades" >Oportunidades: 10</div></h1>
+        <h3><div id = 'juega_pc'> Digite un numero</div></h3>
+          <input type = "number" id = 'num'>
+
+          </input>
+          <input type="button" name="btnjuega" id="btnjuega" value="Jugar"  style="font-size:30px;"/>
+
+    </td>
+     <td width="5%" align="left">
+    </td>
+<td width="43%" align="left">
+    <img width="350px" height="200px" src = "img_4.gif" id = "imagenPrueba"/>
+    <br>
+    </td>
+    </tr>
+    <tr>
+    <td width="100%" align="left" colspan="3">
+<h1><div id = "resultado" align="center"></div></h1>
+</td>
+</tr> 
+</table>
+<audio id="x" autoplay loop src="musica.mp3" type="audio/mpeg" volume="10"> </audio>
+<audio id="a" src="fuego.mp3" type="audio/mpeg"> </audio>
+<audio id="b" src="juego.mp3" type="audio/mpeg"> </audio>
+<audio id="c" src="perder.mp3" type="audio/mpeg"> </audio>
+</body>
+</html>
