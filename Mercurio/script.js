@@ -7,7 +7,7 @@ window.onload = function()
 		var camera = new THREE.PerspectiveCamera(50, window.innerWidth/window.innerHeight, 1, 100); //1/1
 		var renderer = new THREE.WebGLRenderer( { alpha: true } );
 		//renderer.setSize(window.innerWidth, window.innerHeight);
-		renderer.setSize(1210, 605);
+		renderer.setSize(window.innerWidth * 0.9, window.innerHeight * 0.9);
 		renderer.setClearColor( 0x000000, 0);
 		//nom_div("cubo").innerHTL = renderer.domElement;
 
